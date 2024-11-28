@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="토트넘핫스퍼 홈페이지">
+    <meta name="keywords" content="토트넘,토트넘핫스퍼,손흥민,런던,북런던,tot,Tottenham Hotspur,잉글랜드">
+    <meta name="author" content="Jo Min Geun">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tottenham Hotspur</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="icon" href="img/favicon.ico">
+    <script src="https://kit.fontawesome.com/35eaa15044.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- 스와이프나 이런 추가 연결은 내 js보다 위에 -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="#">구단소개</a></li>
+                        <li><a href="#">선수단</a></li>
+                        <li><a href="#">코칭스태프</a></li>
+                        <li>
+                            <h1><a href="#"><img src="img/logo.png" alt="토트넘로고"></a></h1>
+                        </li>
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">티켓샵</a></li>
+                        <li><a href="#">굿즈샵</a></li>
+                        <li>
+                            <h5>SPURS</h5>
+                        </li>
+                        <li><i class="fa-solid fa-bars"></i></li>
+                        <li><i class="fa-solid fa-magnifying-glass"></i></li>
+
+
+                    </ul>
+                </nav>
+            </div><!-- /.container -->
+        </header>
+        <main class="main_visual">
+            <div class="container">
+                <div class="main_banner">
+                    <h4>SPURS</h4>
+                    <div class="main_bannerleft">
+                        <img src="img/sublogo.png" alt="토트넘서브로고">
+                        <img src="img/barcode.png" alt="바코드모양이미지">
+                        <img src="img/main_1024.png" alt="토트넘서브로고">
+                        <img src="img/barcode_1024.png" alt="바코드모양이미지">
+                    </div><!-- /.main_bannerleft -->
+                    <div class="center">
+                        <h3>TOTTENHAM HOTSPUR</h3>
+                        <div class="banner_box">
+                            <div><a href="#">티켓예매</a></div>
+                            <div><a href="#">MD SHOP</a></div>
+                        </div><!-- /.banner_box -->
+                    </div><!-- /.center -->
+                    <div class="main_bannerright">
+                        <p>TOTTENHAM HOTSPUR</p>
+                    </div><!-- /.main_bannerright -->
+                </div><!-- /.main_banner -->
+            </div><!-- /.container -->
+        </main><!-- /.main_visual -->
+        <section class="rank_match">
+            <h2>rank_match</h2>
+            <div class="container">
+                <article class="rank">
+                    <div class="top">
+                        <h6>Premier league</h6>
+                    </div>
+                    <!--<ul class="ul_top">
+                        <li>
+                            <span>순위</span>
+                            <span>팀명</span>
+                            <span>경기수</span>
+                            <span>승</span>
+                            <span>무</span>
+                            <span>패</span>
+                            <span>승점</span>
+                            <span>득실</span>
+                        </li>
+                        </ul> -->
+                    <div class="rankslide swiper">
+                        <ul class="ul_rank swiper-wrapper">
+                            <li >
+                                <span>순위</span>
+                                <span>팀명</span>
+                                <span>경기수</span>
+                                <span>승</span>
+                                <span>무</span>
+                                <span>패</span>
+                                <span>승점</span>
+                                <span>득실</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <span>1</span>
+                                <span><img src="img/rank_mci.png" alt="랭크맨시티로고">맨시티</span>
+                                <span>8</span>
+                                <span>7</span>
+                                <span>0</span>
+                                <span>1</span>
+                                <span>21</span>
+                                <span>12</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <span>2</span>
+                                <span><img src="img/rank_tot.png" alt="랭크토트넘로고">토트넘</span>
+                                <span>8</span>
+                                <span>6</span>
+                                <span>2</span>
+                                <span>0</span>
+                                <span>20</span>
+                                <span>10</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <span>3</span>
+                                <span><img src="img/rank_liv.png" alt="랭크리버풀로고">리버풀</span>
+                                <span>8</span>
+                                <span>5</span>
+                                <span>2</span>
+                                <span>1</span>
+                                <span>17</span>
+                                <span>7</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <span>4</span>
+                                <span><img src="img/rank_asl.png" alt="랭크아스날로고">아스날</span>
+                                <span>8</span>
+                                <span>5</span>
+                                <span>2</span>
+                                <span>1</span>
+                                <span>17</span>
+                                <span>5</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <span>5</span>
+                                <span><img src="img/rank_avl.png" alt="랭크a.빌라로고">A.빌라</span>
+                                <span>8</span>
+                                <span>4</span>
+                                <span>3</span>
+                                <span>1</span>
+                                <span>15</span>
+                                <span>4</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <span>6</span>
+                                <span><img src="img/rank_che.png" alt="랭크첼시로고">첼시</span>
+                                <span>8</span>
+                                <span>4</span>
+                                <span>2</span>
+                                <span>2</span>
+                                <span>14</span>
+                                <span>7</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <span>7</span>
+                                <span><img src="img/rank_bha.png" alt="랭크브라이튼로고">브라이튼</span>
+                                <span>8</span>
+                                <span>4</span>
+                                <span>1</span>
+                                <span>3</span>
+                                <span>13</span>
+                                <span>9</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <span>8</span>
+                                <span><img src="img/rank_nfo.png" alt="랭크노팅엄로고">노팅엄</span>
+                                <span>8</span>
+                                <span>3</span>
+                                <span>4</span>
+                                <span>1</span>
+                                <span>13</span>
+                                <span>2</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <span>9</span>
+                                <span><img src="img/rank_new.png" alt="랭크뉴캐슬로고">뉴캐슬</span>
+                                <span>8</span>
+                                <span>3</span>
+                                <span>3</span>
+                                <span>2</span>
+                                <span>12</span>
+                                <span>0</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <span>10</span>
+                                <span><img src="img/rank_ful.png" alt="랭크풀럼로고">풀럼</span>
+                                <span>8</span>
+                                <span>3</span>
+                                <span>2</span>
+                                <span>3</span>
+                                <span>11</span>
+                                <span>0</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <span>11</span>
+                                <span><img src="img/rank_bou.png" alt="랭크본머스로고">본머스</span>
+                                <span>8</span>
+                                <span>3</span>
+                                <span>2</span>
+                                <span>3</span>
+                                <span>11</span>
+                                <span>0</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <span>12</span>
+                                <span><img src="img/rank_mou.png" alt="랭크맨유로고">맨유</span>
+                                <span>8</span>
+                                <span>3</span>
+                                <span>2</span>
+                                <span>3</span>
+                                <span>11</span>
+                                <span>-2</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <span>13</span>
+                                <span><img src="img/rank_bre.png" alt="랭크브렌트포드로고">b.포드</span>
+                                <span>8</span>
+                                <span>3</span>
+                                <span>1</span>
+                                <span>4</span>
+                                <span>10</span>
+                                <span>-1</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <span>14</span>
+                                <span><img src="img/rank_lei.png" alt="랭크레스터시티로고">레스터</span>
+                                <span>8</span>
+                                <span>2</span>
+                                <span>3</span>
+                                <span>3</span>
+                                <span>9</span>
+                                <span>-2</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <span>15</span>
+                                <span><img src="img/rank_whu.png" alt="랭크웨스트햄로고">웨스트햄</span>
+                                <span>8</span>
+                                <span>2</span>
+                                <span>2</span>
+                                <span>4</span>
+                                <span>8</span>
+                                <span>-4</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <span>16</span>
+                                <span><img src="img/rank_eve.png" alt="랭크에버튼로고">에버튼</span>
+                                <span>8</span>
+                                <span>2</span>
+                                <span>2</span>
+                                <span>4</span>
+                                <span>8</span>
+                                <span>-6</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <span>17</span>
+                                <span><img src="img/rank_ips.png" alt="랭크입스위치로고">입스위치</span>
+                                <span>8</span>
+                                <span>0</span>
+                                <span>4</span>
+                                <span>4</span>
+                                <span>4</span>
+                                <span>-10</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <span>18</span>
+                                <span><img src="img/rank_cry.png" alt="랭크크리스탈팰리스로고">c.팰리스</span>
+                                <span>8</span>
+                                <span>0</span>
+                                <span>3</span>
+                                <span>5</span>
+                                <span>3</span>
+                                <span>-6</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <span>19</span>
+                                <span><img src="img/rank_sou.png" alt="랭크소튼로고">s.햄튼</span>
+                                <span>8</span>
+                                <span>0</span>
+                                <span>1</span>
+                                <span>7</span>
+                                <span>1</span>
+                                <span>-12</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <span>20</span>
+                                <span><img src="img/rank_wol.png" alt="랭크울버햄튼로고">울버햄튼</span>
+                                <span>8</span>
+                                <span>0</span>
+                                <span>1</span>
+                                <span>7</span>
+                                <span>1</span>
+                                <span>-13</span>
+                            </li>
+                        </ul><!-- /.ul_rank -->
+                    </div>
+                </article><!-- /.rank -->
+                <article class="match">
+                    <h3>TOTTENHAM HOTSPUR MATCHES</h3>
+                    <div class="vs">
+                        <div class="home"><img src="img/matche_home.png" alt="매치홈팀"></div>
+                        <h4>VS</h4>
+                        <div class="away">
+                            <img src="img/matche_away.png" alt="매치어웨이팀">
+                        </div>
+                    </div><!-- /.vs -->
+                    <div class="match_txt">
+                        <p>Premier League</p>
+                        <a href="#"><i class="fa-solid fa-location-dot"></i>Tottenham Hotspur Stadium,London</a>
+                    </div><!-- /.match_txt -->
+                </article><!-- /.match -->
+            </div><!-- /.container -->
+        </section><!-- /.rank_match -->
+        <article class="mdshop">
+            <h2>MD SHOP</h2>
+            <div class="slide_wrap">
+                <div class="swiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide"><a href="#"><img src="img/homekit.jpg" alt="토트넘홈킷유니폼"><span>바로 쇼핑하기</span></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="img/awaykit.jpg" alt="토트넘어웨이킷유니폼"><span>바로 쇼핑하기</span></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="img/thirdkit.jpg" alt="토트넘써드킷유니폼"><span>바로 쇼핑하기</span></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="img/gkkit.jpg" alt="토트넘골키퍼킷유니폼"><span>바로 쇼핑하기</span></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="img/thirdfullkit.jpg" alt="토트넘홈풀세트유니폼"><span>바로 쇼핑하기</span></a></li>
+                        
+                    </ul>
+                    <!-- <div class="swiper-pagination"> --></div><!-- /.swiper -->
+            </div>
+            <div class="visual">
+                <div class="md_txtbox container">
+                    <h4>2024/25 SEASON NEW UNIFORM</h4>
+                    <a href="#">BUY NOW</a>
+                </div><!-- /.md_txtbox -->
+            </div><!-- /.visual -->
+        </article><!-- /.mdshop -->
+        <section class="news container">
+            <h2>news</h2>
+            <div class="news_left">
+                <div class="news_bg"></div>
+                <article class="news_txt">
+                    <h2>NEWS.</h2>
+                    <p>Tottenham Hotspur</p>
+                </article><!-- /.news_txt -->
+                <article class="news1">
+                    <h5>한국 최연소 EPL 진출
+                        양민혁 선수 영입</h5>
+                    <!-- <img src="img/news1.png" alt="한국최연소 epl진출을 한 양민혁 선수의 기사"> -->
+                </article><!-- /.news1 -->
+            </div><!-- /.news_left -->
+            <div class="news_right">
+                <h2>NEWS</h2>
+                <article class="news2">
+                    <h5>토트넘의 2024 여름 이적시장 총 정리</h5>
+                </article><!-- /.news2 -->
+                <article class="news3">
+                    <h5>손흥민 선수의 첫 우승을 노리는<br>
+                        유로파 리그 대진 확정</h5>
+                </article><!-- /.news3 -->
+            </div><!-- /.news_right -->
+        </section><!-- /.news -->
+        <article class="media">
+            <h2>MEDIA</h2>
+            <div class="slide swiper">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide"><a href="https://www.youtube.com/watch?v=1cyHCqrozUY" target="_blank"><img src="img/tottenham241031.jpg" alt="카라바오컵16강하이라이트">
+                       
+                        <i class="fa-regular fa-circle-play"></i>
+                        
+                    </a></li>
+                    <li class="swiper-slide"><a href="https://www.youtube.com/watch?v=sZaLa7WoHQc" target="_blank"><img src="img/training.jpg" alt="토트넘선수들의트레이닝">
+                        
+                        <i class="fa-regular fa-circle-play"></i>
+                   
+                    </a></li>
+                    <li class="swiper-slide"><a href="https://www.youtube.com/watch?v=z2-n5EKHucU" target="_blank"><img src="img/son.png" alt="손흥민토트넘의모든골">
+                       
+                        <i class="fa-regular fa-circle-play"></i>
+                      
+                    </a></li>
+                    <li class="swiper-slide"><a href="https://www.youtube.com/watch?v=PSmdDykSFls" target="_blank"><img src="img/newtot.jpg" alt="새로운토트넘핫스퍼스타디움">
+                      
+                        <i class="fa-regular fa-circle-play"></i>
+                   
+                    </a></li>
+                    <li class="swiper-slide"><a href="https://www.youtube.com/watch?v=ZhYMxLioZU4" target="_blank"><img src="img/goldboot.jpg" alt="손흥민의골든부츠">
+                        
+                        <i class="fa-regular fa-circle-play"></i>
+                    
+                    </a>
+                    
+                    </li>
+                    
+                </ul>
+                <!-- <div class="swiper-pagination"></div> -->
+            </div>
+        </article><!-- /.media -->
+        <section class="stadium">
+            <div class="container">
+                <div class="stadium_box">
+                    <div class="stadium_h2bg"></div>
+                    <h2>TOTTENHAM HOTSPUR STADIUM</h2>
+                    <h2 class="h2_1024">SPURS STADIUM</h2>
+                </div><!-- /.stadium_box -->
+
+                <div class="stadium_wrap">
+                    <article class="skywalk">
+                        <div class="skywalk_img img_box">
+                            <img src="img/skywalk.png" alt="스카이워크를체험하고있는사진">
+                        </div>
+                        <div class="skywalk_txt txt_box">
+                            <div class="stadium_txtbox">
+                                <h4>데어 스카이워크</h4>
+                                <p>손흥민 선수도 직접 체험 한
+                                    토트넘 핫스퍼 스타디움<br> 46.8m 상공에 위치한
+                                    지붕의 투명 유리 바닥을 따라 걷고<br>
+                                    환상적인 전망을 볼 수 있는 데어 스카이워크 </p>
+                            </div><!-- /.skywalk_txtbox -->
+                        </div><!-- /.skywalk_txt -->
+                    </article><!-- /.skywalk -->
+                    <article class="stadiumtour">
+                        <div class="stadiumtour_txt txt_box">
+                            <div class="stadium_txtbox">
+                                <h4>스타디움 투어</h4>
+                                <p>토트넘 핫스퍼 스타디움의 홈구장 투어<br>
+                                    선수들의 락커룸도 구경할 수 있으며<br>
+                                    경기장의 벤치와 구장의 잔디를 직접 밟아볼 수 있습니다<br>
+                                    오랜 역사가 있는 전시관 까지 있습니다</p>
+                            </div><!-- /.stadium_txtbox -->
+                        </div><!-- /.stadiumtour_txt -->
+                        <div class="stadiumtour_img img_box">
+
+                        </div>
+                    </article><!-- /.stadiumtour -->
+                </div><!-- /.stadium_wrap -->
+                <article class="totstadium">
+                    <div class="totstadium_wrap">
+                        <div class="totstadium_left">
+                            <img src="img/stadium.png" alt="토트넘핫스퍼스타디움의사진입니다.">
+                            <div class="totstadium_leftbox">
+                                <p>TOTTENHAM HOTSPUR</p>
+                            </div>
+                            <div class="totstadium_rightbox"><img src="img/sublogo.png" alt="토트넘핫스퍼의서브로고"></div>
+                        </div><!-- /.totstadium_left -->
+                        <div class="totstadium_txt">
+                            <div class="tot_txtbox">
+                                <h4>토트넘 핫스퍼 스타디움</h4>
+                                <p>런던의 대표적인 축구 클럽
+                                    오랜 역사를 가지고 있으며<br>
+                                    최첨단 건축 디자인으로 설계된
+                                    토트넘 핫스퍼 스타디움에서<br>
+                                    특별한 추억을 만들어보세요!</p>
+                            </div><!-- /.tot_txtbox -->
+                        </div><!-- /.totstadium_txt -->
+                    </div><!-- /.totstadium_wrap -->
+                </article><!-- /.totstadium -->
+            </div>
+
+        </section><!-- /.stadium -->
+        <article class="sponsor">
+            <h2>sponsor</h2>
+            <div class="container">
+                <div class="spon_top">
+                    <div><a href="https://www.aia.com/en/health-wellness/healthy-living/healthy-living-with-aia-tottenham-hotspur"
+                            target="_blank"><img src="img/spon1_aia.png" alt="aia스폰서"></a></div>
+                    <div><a href="https://www.ea.com/en-gb/games/ea-sports-fc/fc-24" target="_blank"><img
+                                src="img/spon2_easport.png" alt="easport스폰서"></a></div>
+                    <div><a href="https://www.nike.com/" target="_blank"><img src="img/spon3_nike.png"
+                                alt="nike스폰서"></a></div>
+                </div><!-- /.spon_top -->
+                <div class="spon_mid">
+                    <div><a href="https://www.astropay.com/" target="_blank"><img src="img/spon4_astro.png"
+                                alt="astro스폰서"></a></div>
+                    <div><a href="https://www.betmgm.co.uk/sports?btag=100668872_17bda849877643f78d7e7fa166d7ea24&pid=3779693&bid=19634"
+                            target="_blank"><img src="img/spon5_betmgn.png" alt="betmgn스폰서"></a></div>
+                    <div><a href="https://www.bppulse.co.uk/" target="_blank"><img src="img/spon6_bppulse.png"
+                                alt="bppulse스폰서"></a></div>
+                    <div><a href="https://www.cadbury.co.uk/" target="_blank"><img src="img/spon7_cadbury.png"
+                                alt="cadbury스폰서"></a></div>
+                </div><!-- /.spon_mid -->
+                <div class="spon_mid1">
+                    <div><a href="https://www.castrol.com/?utm_source=thfc-partnership-logo&utm_medium=referal&utm_id=tottenham-hotspur"
+                            target="_blank"><img src="img/spon8_castrol.png" alt="castrol스폰서"></a></div>
+                    <div><a href="https://www.hpe.com/us/en/newsroom.html" target="_blank"><img src="img/spon9_hpe.png"
+                                alt="hpe스폰서"></a></div>
+                    <div><a href="https://world.kiton.com/ko/" target="_blank"><img src="img/spon10_kinto.png"
+                                alt="kinto스폰서"></a></div>
+                    <div><a href="https://www.kraken.com/tottenhamhotspur" target="_blank"><img src="img/spon11_kra.png"
+                                alt="kraken스폰서"></a></div>
+                </div><!-- /.spon_mid1 -->
+
+                <div class="spon_bottom">
+                    <div><a href="https://www.kumhotire.com/uk/index.do" target="_blank"><img
+                                src="img/spon12_kumhotyre.png" alt="kumhotyre스폰서"></a>
+                    </div>
+                    <div><a href="https://www.scienceinsport.com/" target="_blank"><img
+                                src="img/spon13_scienceinsport.png" alt="scienceinsport스폰서"></a>
+                    </div>
+                    <div><a href="https://www.socios.com/tottenham-hotspur-fan-token/" target="_blank"><img
+                                src="img/spon14_socioscom.png" alt="socios스폰서"></a>
+                    </div>
+                </div><!-- /.spon_bottom -->
+            </div><!-- /.container -->
+        </article><!-- /.sponsor -->
+        <article class="sns">
+            <h2>sns</h2>
+            <div class="container">
+                <a href="https://www.facebook.com/TottenhamHotspur/" target="_blank"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/spursofficial/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.twitch.tv/tottenhamhotspur" target="_blank"><i class="fa-brands fa-twitch"></i></a>
+                <a href="https://x.com/SpursOfficial" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.youtube.com/user/spursofficial" target="_blank"><i
+                        class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.snapchat.com/add/spursofficial" target="_blank"><i
+                        class="fa-brands fa-snapchat"></i></a>
+            </div>
+        </article>
+        <footer>
+            <div class="container">
+
+                <div class="f_center">
+                    <ul>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">티켓예매</a></li>
+                        <li><a href="#">마이페이지</a></li>
+                    </ul>
+                </div>
+
+            </div><!-- /.container -->
+        </footer>
+    </div><!-- /.wrap -->
+</body>
+
+</html>
