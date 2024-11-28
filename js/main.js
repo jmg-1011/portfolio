@@ -23,27 +23,19 @@ setInterval(blink, 500);
 
 /* nav 버튼 시작 */
 
-$('.ham_btn,.x_btn').click(function () {
+/* $('.ham_btn,.x_btn').click(function () {
   $(this).parent('nav').addClass('on');
 
-});
+}); */
 
-$('.x_btn').click(function () {
-  $(this).parent('nav').removeClass('on');
-
-});
 
 $(".ham_btn").click(function () {
   // 버튼 교체
-  $(".ham_btn").hide();
-  $(".x_btn").show();
+  $('nav').toggleClass('on');
+  $(this).find('i').toggleClass('fa-bars').toggleClass('fa-xmark');
 });
 
-$(".x_btn").click(function () {
-  // 버튼 교체
-  $(".x_btn").hide();
-  $(".ham_btn").show();
-});
+
 
 
 

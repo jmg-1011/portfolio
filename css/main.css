@@ -231,9 +231,9 @@ header nav button i {
     font-size: 35px;
     transition: .5s;
 }
-header nav button.x_btn i{
+.fa-xmark {
     font-size: 40px;
-    /* display: none; */
+
 }
 
 
