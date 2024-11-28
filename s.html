@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/s.js"></script>
+    <style>
+            @font-face {
+    font-family: 'dos';
+    src: url('../font/DOSIyagiBoldface.ttf') format('truetype');
+}
+        *{
+            color: #000;
+            background: #ccc;
+            font-family: 'dos';
+        }
+        p.typing-txt {
+            display: none;
+        }
+
+        .typing {
+            /*position: absolute;*/
+            display: inline-block;
+            animation-name: cursor;
+            animation-duration: 0.8s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes cursor {
+            0% {
+                border-right: 5px solid #fff
+            }
+
+            50% {
+                border-right: 5px solid #000
+            }
+
+            100% {
+                border-right: 5px solid #fff
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p class="typing-txt">&lt;button&gt; Portfolio show&lt;/button&gt;</p>
+    <p class="typing"></p>
+</body>
+
+</html>
