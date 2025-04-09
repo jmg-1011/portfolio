@@ -264,6 +264,7 @@ section.con1 {
 section.con1 h2 {
     background: transparent;
     position: absolute;
+    /* width: 80%; */
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -360,6 +361,10 @@ section.con2_project article .txtbox {
     justify-content: space-around;
 }
 
+section.con2_project article .txtbox>.imgbox{
+    display: none;
+}
+
 section.con2_project article .txtbox h3 {
     font-size: 62px;
     font-family: var(--dos-font);
@@ -377,8 +382,8 @@ section.con2_project article .txtbox span {
 }
 
 section.con2_project article .view {
-    font-size: 32px;
-    width: 50%;
+    font-size: 28px;
+    width: 60%;
     height: 50px;
     border: 1px solid #fff;
     display: flex;
@@ -740,6 +745,17 @@ section.con5_skill .container article.on .right_box {
 
 section.con5_skill .container article p {
     font-family: var(--d2-font);
+}
+
+section.con5_skill .container2{
+    display: none;
+    width: 80%;
+    height: 100%;
+}
+section.con5_skill .container2 ul {
+    display: flex;
+
+    align-items: center;
 }
 
 .txtAniBox {
